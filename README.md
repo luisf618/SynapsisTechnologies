@@ -28,7 +28,7 @@ Nuestro equipo está conformado por profesionales con roles multifunción que tr
 | 2 | Bryan Alao | Arquitecto de Software |
 | 3 | Juan Pablo Landi | Base de Datos |
 | 4 | Luis Cordova | Desarrollador Backend |
-| 5 | Juan Villamagua | Desarrollador Frontend & UX/UI |
+| 5 | Juan Villamagua | Desarrollador Frontend |
 
 ## Nuestro enfoque
 
