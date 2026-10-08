@@ -1,6 +1,6 @@
 # SynapsisTechnologies
 
-**Sinapsis Technologies** es una empresa dedicada al desarrollo de software, ubicada en **Loja, Ecuador**. Nos enfocamos en crear soluciones tecnológicas a medida que permitan a pequeñas y medianas empresas optimizar sus procesos y alcanzar sus objetivos.
+**Synapsis Technologies** es una empresa dedicada al desarrollo de software, ubicada en **Loja, Ecuador**. Nos enfocamos en crear soluciones tecnológicas a medida que permitan a pequeñas y medianas empresas optimizar sus procesos y alcanzar sus objetivos.
 
 ## Datos de la empresa
 
@@ -32,7 +32,7 @@ Nuestro equipo está conformado por profesionales con roles multifunción que tr
 
 ## Nuestro enfoque
 
-En **Sinapsis Technologies** buscamos combinar innovación, calidad y tecnología para desarrollar soluciones que generen valor real para nuestros clientes.
+En **Synapsis Technologies** buscamos combinar innovación, calidad y tecnología para desarrollar soluciones que generen valor real para nuestros clientes.
 
 Nuestro trabajo se fundamenta en:
 
