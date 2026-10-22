@@ -106,4 +106,5 @@
     *   Auditoría de la información
 
 
-<img width="2367" height="1562" alt="Mapa-de-capacidades-CIMA-_Niveles-1_-2-y-3_" src="https://github.com/user-attachments/assets/3aaa9cef-8305-4df3-bbde-8a077f7ebc55" />
+<img width="3551" height="2343" alt="Mapa de capacidades CIMA (Niveles 1, 2 y 3)" src="https://github.com/user-attachments/assets/90781551-1ff1-425d-a822-ef9c726cef75" />
+
