@@ -104,3 +104,6 @@
     *   Trazabilidad de accesos
     *   Trazabilidad de modificaciones
     *   Auditoría de la información
+
+
+<img width="2367" height="1562" alt="Mapa-de-capacidades-CIMA-_Niveles-1_-2-y-3_" src="https://github.com/user-attachments/assets/3aaa9cef-8305-4df3-bbde-8a077f7ebc55" />
