@@ -12,11 +12,11 @@
 
 ## Misión
 
-Desarrollar soluciones de software a medida, innovadoras y de calidad, que ayuden a las pequeñas y medianas empresas a optimizar sus procesos y alcanzar sus objetivos.
+Desarrollar soluciones de software especializadas, innovadoras y de calidad que integren ingeniería de software, automatización e inteligencia artificial agéntica para ayudar a las organizaciones a optimizar sus procesos, resolver necesidades específicas y alcanzar sus objetivos empresariales, priorizando la seguridad, la eficiencia y la generación de valor.
 
 ## Visión
 
-Ser para el año **2030** una empresa referente en el desarrollo de software a nivel nacional, reconocida por su compromiso con los clientes y por desarrollar productos de calidad a la vanguardia tecnológica.
+Ser una empresa referente en Ecuador en el desarrollo de software especializado y soluciones de inteligencia artificial agéntica, reconocida por su innovación tecnológica, la calidad de sus productos y su capacidad para transformar procesos empresariales mediante soluciones seguras, eficientes y adaptadas a las necesidades de cada cliente.
 
 ## Integrantes y roles
 
