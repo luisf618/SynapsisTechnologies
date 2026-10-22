@@ -194,5 +194,3 @@ El alta puede ser total, parcial o por abandono, y un alta bien hecha es gradual
 ---
 *En la visita al centro, lo más útil será que cuenten cómo vivieron este recorrido con un paciente real (sin datos personales), etapa por etapa, para ver dónde su forma de trabajar se parece a este modelo y dónde no.*
 ```eof
-
-He transformado tu texto a Markdown dándole una estructura limpia. He convertido la sección de "Evaluación" en una tabla para facilitar la lectura, utilizado negritas para resaltar las palabras clave en los procesos, blockquotes (citas) para las notas al margen o del lado del negocio, y jerarquía de títulos (`#`, `##`, `###`) para que Github lo renderice con un índice organizado y fácil de navegar.
