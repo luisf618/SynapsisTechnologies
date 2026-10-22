@@ -16,7 +16,7 @@ Desarrollar soluciones de software especializadas, innovadoras y de calidad que 
 
 ## Visión
 
-Ser una empresa referente en Ecuador en el desarrollo de software especializado y soluciones de inteligencia artificial agéntica, reconocida por su innovación tecnológica, la calidad de sus productos y su capacidad para transformar procesos empresariales mediante soluciones seguras, eficientes y adaptadas a las necesidades de cada cliente.
+Ser una empresa referente en el desarrollo de software especializado y soluciones de inteligencia artificial agéntica, reconocida por su innovación tecnológica, la calidad de sus productos y su capacidad para transformar procesos empresariales mediante soluciones seguras, eficientes y adaptadas a las necesidades de cada cliente.
 
 ## Integrantes y roles
 
