@@ -140,9 +140,9 @@ El Representante solicita atención para el Paciente y el Recepcionista registra
 |---|---|
 | **ID** | M2 |
 | **Nombre** | Gestión de evaluaciones |
-| **Casos de uso** | CU-05 Gestionar evaluaciones disciplinares · CU-06 Gestionar diagnósticos |
+| **Casos de uso** | CU-05 Gestionar evaluaciones disciplinares · CU-06 Gestionar diagnósticos · Analizar evaluación · Dar recomendación médica · Generar conclusión médica |
 | **Actor principal** | Coordinador Clínico, Profesional Clínico |
-| **Actor secundario** | Representante |
+| **Actor secundario** | Representante, Agente RAG (externo), Agente LLM (externo) |
 | **Prioridad** | Alta (Must) |
 | **Estado** | Especificado |
 
@@ -150,10 +150,13 @@ El Representante solicita atención para el Paciente y el Recepcionista registra
 
 El Coordinador Clínico planifica la Evaluación del Paciente y cada Profesional Clínico registra los Resultados de los Instrumentos aplicados. Con esos Resultados se registra el Diagnóstico, se elabora el Informe de Evaluación y se registra la devolución de resultados al Representante.
 
+De forma opcional, el módulo se apoya en un agente de IA compuesto por un Agente RAG, que recupera conocimiento de referencia, y un Agente LLM, que genera conclusiones. Este agente analiza la Evaluación y entrega recomendaciones de nueva evaluación y de diagnóstico al Profesional Clínico. El Profesional Clínico mantiene la decisión final sobre el Diagnóstico.
+
 ### 3.2 Precondiciones
 
-- El Paciente tiene el Expediente abierto (M1).
-- El Representante firmó el Consentimiento para la evaluación.
+1. El Paciente tiene el Expediente abierto (M1).
+2. El Representante firmó el Consentimiento para la evaluación.
+3. Para usar el apoyo de IA, los Agentes RAG y LLM están disponibles.
 
 ### 3.3 Flujo principal (escenario de éxito)
 
@@ -172,15 +175,33 @@ El Coordinador Clínico planifica la Evaluación del Paciente y cada Profesional
 
 **Flujo alternativo 1: Registrar reevaluación**
 
-- Si termina un ciclo del Plan de Intervención, el Plan de Intervención solicita una Reevaluación al Coordinador Clínico.
-- El Coordinador Clínico planifica la Reevaluación.
-- La Reevaluación registra los nuevos Resultados del Profesional Clínico.
+1. Si termina un ciclo del Plan de Intervención, el Plan de Intervención solicita una Reevaluación al Coordinador Clínico.
+2. El Coordinador Clínico planifica la Reevaluación.
+3. La Reevaluación registra los nuevos Resultados del Profesional Clínico.
+
+**Flujo alternativo 2: Analizar evaluación con IA**
+
+1. El Profesional Clínico solicita el análisis de la Evaluación con los Resultados de los Instrumentos registrados.
+2. La Evaluación envía los Resultados de los Instrumentos al Agente RAG.
+3. El Agente RAG recupera el conocimiento de referencia relacionado con los Resultados de los Instrumentos.
+4. El Agente RAG devuelve el análisis de la Evaluación.
+5. La Evaluación registra el análisis como apoyo para el Profesional Clínico y el flujo continúa en el paso 4 del flujo principal.
+
+**Flujo alternativo 3: Dar recomendación médica**
+
+1. El Profesional Clínico solicita una recomendación médica para el Diagnóstico.
+2. El sistema ejecuta el análisis de la Evaluación.
+3. El sistema ejecuta la generación de la conclusión médica.
+4. La Recomendación médica presenta al Profesional Clínico las sugerencias de nueva evaluación y de diagnóstico.
+5. El Profesional Clínico revisa las sugerencias y las acepta, las modifica o las descarta.
+6. El Diagnóstico registra la conclusión diagnóstica del Profesional Clínico y el flujo continúa en el paso 5 del flujo principal.
 
 ### 3.5 Postcondiciones
 
-- La Evaluación queda registrada con los Resultados de cada disciplina.
-- El Diagnóstico y el Informe de Evaluación quedan registrados en el Expediente.
-- La devolución de resultados al Representante queda registrada.
+1. La Evaluación queda registrada con los Resultados de cada disciplina.
+2. El Diagnóstico y el Informe de Evaluación quedan registrados en el Expediente.
+3. La devolución de resultados al Representante queda registrada.
+4. Si se usó el apoyo de IA, el análisis de la Evaluación y la conclusión médica generada quedan registrados como apoyo. El Diagnóstico final corresponde al Profesional Clínico.
 
 ---
 
