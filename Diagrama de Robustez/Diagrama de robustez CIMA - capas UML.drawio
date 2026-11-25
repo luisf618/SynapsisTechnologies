@@ -1,0 +1,1779 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="capas-F1" name="F1 Admisiones">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1886">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  F1 Admisiones" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: registrarSolicitud(), confirmarDatosSolicitud(), programarEntrevistaInicial(), registrarIdentificacion(), registrarAntecedentes(), registrarEvaluacionExterna(), recibirConfirmacionRegistro(), registrarGradoEscolar(), registrarInstitucionEducativa(), registrarDocentes(), registrarDocumentoPrevio(), registrarRepresentante(), registrarConsentimientoAtencion(), registrarUsoInformacion(), abrirExpedienteClinico(), crearCuentaAcceso(), registrarInformacionCompartible(), consultarRecordatorioFallido()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="169.60000000000002" y="173" width="368" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="169.60000000000002" y="173" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="169.60000000000002" y="223" width="368" height="48" as="geometry" />
+        </mxCell>
+        <object id="n8" label="" tooltip="Canal de interacción. Operaciones vinculadas: activarRecordatorio()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="667.2" y="173" width="368" height="81" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Interfaz de temporización" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="667.2" y="173" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirActivacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n10">
+          <mxGeometry x="667.2" y="223" width="368" height="31" as="geometry" />
+        </mxCell>
+        <object id="n11" label="" tooltip="Canal de interacción. Operaciones vinculadas: ingresarAlPortal(), consultarConsentimientos()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1164.8000000000002" y="173" width="368" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Portal del representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="1164.8000000000002" y="173" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirConsulta()&#10;+ mostrarInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n13">
+          <mxGeometry x="1164.8000000000002" y="223" width="368" height="48" as="geometry" />
+        </mxCell>
+        <object id="n14" label="" tooltip="Canal de interacción. Operaciones vinculadas: registrarSolicitudWeb()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1662.4" y="173" width="368" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Formulario web" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="1662.4" y="173" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n16">
+          <mxGeometry x="1662.4" y="223" width="368" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="24" y="367" width="2152" height="282" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n18">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n19" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="418" width="327" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-01 · Gestionar solicitudes de atención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="120.83333333333337" y="418" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarSolicitud()&#10;+ registrarSolicitudWeb()&#10;+ confirmarDatosSolicitud()&#10;+ programarEntrevistaInicial()&#10;+ asignarEntrevista()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n21">
+          <mxGeometry x="120.83333333333337" y="468" width="327" height="99" as="geometry" />
+        </mxCell>
+        <object id="n22" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="418" width="327" height="200" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-02 · Gestionar información del paciente" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n23">
+          <mxGeometry x="528.6666666666667" y="418" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarIdentificacion()&#10;+ registrarAntecedentes()&#10;+ registrarEvaluacionExterna()&#10;+ recibirConfirmacionRegistro()&#10;+ registrarGradoEscolar()&#10;+ registrarInstitucionEducativa()&#10;+ registrarDocentes()&#10;+ registrarDocumentoPrevio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n24">
+          <mxGeometry x="528.6666666666667" y="468" width="327" height="150" as="geometry" />
+        </mxCell>
+        <object id="n25" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="418" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-03 · Gestionar representantes" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n26">
+          <mxGeometry x="936.5" y="418" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarRepresentante()&#10;+ registrarConsentimientoAtencion()&#10;+ registrarUsoInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n27">
+          <mxGeometry x="936.5" y="468" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n28" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="418" width="327" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-04 · Gestionar expediente clínico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n29">
+          <mxGeometry x="1344.3333333333333" y="418" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ abrirExpedienteClinico()&#10;+ crearCuentaAcceso()&#10;+ ingresarAlPortal()&#10;+ consultarConsentimientos()&#10;+ registrarInformacionCompartible()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n30">
+          <mxGeometry x="1344.3333333333333" y="468" width="327" height="99" as="geometry" />
+        </mxCell>
+        <object id="n31" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="418" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;§8.1 · Enviar recordatorio de cita" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n32">
+          <mxGeometry x="1752.1666666666665" y="418" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarRecordatorio()&#10;+ anularRecordatorio()&#10;+ generarNuevoRecordatorio()&#10;+ activarRecordatorio()&#10;+ registrarEstadoEnvio()&#10;+ consultarRecordatorioFallido()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="1752.1666666666665" y="468" width="327" height="116" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n34">
+          <mxGeometry x="24" y="714" width="2152" height="862" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n35">
+          <mxGeometry x="40" y="720" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n36" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="765" width="327" height="350" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n37">
+          <mxGeometry x="120.83333333333337" y="765" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosIdentificacion&#10;− parentesco&#10;− custodia" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n38">
+          <mxGeometry x="120.83333333333337" y="815" width="327" height="65" as="geometry" />
+        </mxCell>
+        <mxCell value="+ solicitarAtencion()&#10;+ firmarConsentimiento()&#10;+ aprobarPlanIntervencion()&#10;+ elegirHorario()&#10;+ ingresarAlPortal()&#10;+ consultarConsentimientos()&#10;+ consultarPlanIntervencion()&#10;+ consultarHorarioTerapeutico()&#10;+ consultarTareas()&#10;+ consultarInformesDeAvance()&#10;+ consultarInformeDeAlta()&#10;+ consultarPagos()&#10;+ solicitarAlta()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n39">
+          <mxGeometry x="120.83333333333337" y="880" width="327" height="235" as="geometry" />
+        </mxCell>
+        <object id="n40" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="765" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Paciente" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n41">
+          <mxGeometry x="528.6666666666667" y="765" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosIdentificacion&#10;− cedula&#10;− antecedentes&#10;− gradoEscolar" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n42">
+          <mxGeometry x="528.6666666666667" y="815" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n43" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="765" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Solicitud de Atención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n44">
+          <mxGeometry x="936.5" y="765" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosBasicos&#10;− motivoConsulta&#10;− derivacion&#10;− pendienteRevision" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n45">
+          <mxGeometry x="936.5" y="815" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n46" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="765" width="327" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cita" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n47">
+          <mxGeometry x="1344.3333333333333" y="765" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− hora&#10;− tipo&#10;− capacitacionDelPlan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n48">
+          <mxGeometry x="1344.3333333333333" y="815" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="+ asignarEntrevistaACoordinadora()&#10;+ generarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n49">
+          <mxGeometry x="1344.3333333333333" y="897" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n50" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="765" width="327" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Evaluación Externa" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n51">
+          <mxGeometry x="1752.1666666666665" y="765" width="327" height="50" as="geometry" />
+        </mxCell>
+        <object id="n52" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="1181" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Documento Previo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n53">
+          <mxGeometry x="120.83333333333337" y="1181" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− tipo&#10;− origen&#10;− fecha&#10;− archivo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n54">
+          <mxGeometry x="120.83333333333337" y="1231" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n55" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="1181" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Institución Educativa" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n56">
+          <mxGeometry x="528.6666666666667" y="1181" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− nombre&#10;− telefono&#10;− direccion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n57">
+          <mxGeometry x="528.6666666666667" y="1231" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n58" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="1181" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Docente" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n59">
+          <mxGeometry x="936.5" y="1181" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− nombres&#10;− telefono&#10;− correo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n60">
+          <mxGeometry x="936.5" y="1231" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n61" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="1181" width="327" height="81" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Consentimiento" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n62">
+          <mxGeometry x="1344.3333333333333" y="1181" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− tipo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n63">
+          <mxGeometry x="1344.3333333333333" y="1231" width="327" height="31" as="geometry" />
+        </mxCell>
+        <object id="n64" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="1181" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Expediente Clínico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n65">
+          <mxGeometry x="1752.1666666666665" y="1181" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosPaciente&#10;− datosRepresentante&#10;− estado&#10;− informacionCompartibleConTerceros&#10;− fechaCierre&#10;− plazoConservacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n66">
+          <mxGeometry x="1752.1666666666665" y="1231" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n67" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="732.5833333333333" y="1413" width="327" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cuenta de Acceso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n68">
+          <mxGeometry x="732.5833333333333" y="1413" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− usuario&#10;− contrasena" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n69">
+          <mxGeometry x="732.5833333333333" y="1463" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n70" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1140.4166666666665" y="1413" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Recordatorio" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n71">
+          <mxGeometry x="1140.4166666666665" y="1413" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− destinatario&#10;− fechaEnvio&#10;− horaEnvio&#10;− estado" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n72">
+          <mxGeometry x="1140.4166666666665" y="1463" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n73">
+          <mxGeometry x="24" y="1641" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n74">
+          <mxGeometry x="40" y="1647" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n75" label="" tooltip="Participante externo de la especificación.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="1692" width="408" height="81" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«infraestructura»&#10;Temporizador" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e2e8f1;connectable=0;" vertex="1" parent="1" id="n76">
+          <mxGeometry x="474.66666666666663" y="1692" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ activarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n77">
+          <mxGeometry x="474.66666666666663" y="1742" width="408" height="31" as="geometry" />
+        </mxCell>
+        <object id="n78" label="" tooltip="Participante externo de la especificación.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="1692" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«infraestructura»&#10;Servicio de notificaciones" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e2e8f1;connectable=0;" vertex="1" parent="1" id="n79">
+          <mxGeometry x="1317.3333333333335" y="1692" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ enviarMensajeWhatsApp()&#10;+ registrarEstadoEnvio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n80">
+          <mxGeometry x="1317.3333333333335" y="1742" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n81" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n19">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n82" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n14" target="n19">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n83" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n46">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n84" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n43">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n85" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n22">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n86" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n22" target="n58">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n87" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n22" target="n52">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n88" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n22" target="n50">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n89" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n22" target="n55">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n90" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n22" target="n40">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n91" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n25">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n92" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n25" target="n61">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n93" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n25" target="n36">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n94" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n95" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n11" target="n28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n96" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n28" target="n61">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n97" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n28" target="n67">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n98" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n28" target="n64">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n99" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n100" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n101" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n31" target="n70">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n102" label="" tooltip="Integración descrita en la especificación.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="n31" target="n75">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n103" label="" tooltip="Integración descrita en la especificación.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="n31" target="n78">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n104" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n36" target="n40">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n105" label="" tooltip="Asociación del diccionario. Uno de atención y uno de uso de información en admisión">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n36" target="n61">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n106" label="" tooltip="Asociación del diccionario. Una cuenta creada en el flujo CU-04">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n36" target="n67">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n107" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n36" target="n43">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n108" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n40" target="n50">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n109" label="" tooltip="Asociación del diccionario. Admite varios documentos por Paciente">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n40" target="n52">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n110" label="" tooltip="Asociación del diccionario. Una por Paciente en el registro escolar descrito, si asiste">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n40" target="n55">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n111" label="" tooltip="Asociación del diccionario. Una cita de entrevista inicial en el flujo CU-01">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n43" target="n46">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n112" label="" tooltip="Asociación del diccionario. Uno por generación">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n46" target="n70">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n113" label="" tooltip="Asociación del diccionario. Un destinatario en la cita con Docente">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n46" target="n58">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n114" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n46" target="n36">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n115" label="" tooltip="Asociación del diccionario. Se contemplan varios por Institución Educativa">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n55" target="n58">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n116" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n64" target="n40">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n117" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n64" target="n36">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n118" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n64" target="n61">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="capas-F2" name="F2 Planes de intervención">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1671">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  F2 Planes de intervención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: revisarEvaluacionExterna(), solicitarPropuestaPlan(), revisarPropuestaPlan(), registrarAreasIntervencion(), asignarTerapeuta(), registrarDatosDelArea(), solicitarPropuestaActividades(), revisarPropuestaActividades(), registrarActividadesTerapeuticas(), planificarCapacitacion(), revisarPlan(), confirmarPlanListo(), recibirConfirmacionPlan(), programarPresentacionPlan(), registrarAprobacionPlan(), consultarDisponibilidad(), registrarHorarioTerapeutico()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="474.66666666666663" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="474.66666666666663" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n8" label="" tooltip="Canal de interacción. Operaciones vinculadas: ingresarAlPortal(), consultarPlanAprobado(), consultarHorario()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Portal del representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="1317.3333333333335" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirConsulta()&#10;+ mostrarInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n10">
+          <mxGeometry x="1317.3333333333335" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n11">
+          <mxGeometry x="24" y="367" width="2152" height="367" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n13" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="264.0" y="418" width="408" height="285" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-05 · Gestionar diseño del plan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n14">
+          <mxGeometry x="264.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ revisarEvaluacionExterna()&#10;+ solicitarPropuestaPlan()&#10;+ revisarPropuestaPlan()&#10;+ registrarAreasIntervencion()&#10;+ asignarTerapeuta()&#10;+ registrarDatosDelArea()&#10;+ solicitarPropuestaActividades()&#10;+ revisarPropuestaActividades()&#10;+ registrarActividadesTerapeuticas()&#10;+ planificarCapacitacion()&#10;+ revisarPlan()&#10;+ confirmarPlanListo()&#10;+ recibirConfirmacionPlan()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="264.0" y="468" width="408" height="235" as="geometry" />
+        </mxCell>
+        <object id="n16" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="896.0" y="418" width="408" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-06 · Gestionar aprobación del plan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="896.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ programarPresentacionPlan()&#10;+ registrarAprobacionPlan()&#10;+ ingresarAlPortal()&#10;+ consultarPlanAprobado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n18">
+          <mxGeometry x="896.0" y="468" width="408" height="82" as="geometry" />
+        </mxCell>
+        <object id="n19" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1528.0" y="418" width="408" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-07 · Gestionar horario terapéutico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="1528.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ consultarDisponibilidad()&#10;+ registrarHorarioTerapeutico()&#10;+ ingresarAlPortal()&#10;+ consultarHorario()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n21">
+          <mxGeometry x="1528.0" y="468" width="408" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n22">
+          <mxGeometry x="24" y="799" width="2152" height="562" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n23">
+          <mxGeometry x="40" y="805" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n24" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="850" width="327" height="234" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Plan de Intervención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n25">
+          <mxGeometry x="120.83333333333337" y="850" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− estado&#10;− fechaAprobacion&#10;− vigencia&#10;− ajustesIntensidad&#10;− areasAgregadas&#10;− areasRetiradas&#10;− nuevosObjetivosEspecificos&#10;− version&#10;− temaCapacitacion&#10;− frecuenciaCapacitacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n26">
+          <mxGeometry x="120.83333333333337" y="900" width="327" height="184" as="geometry" />
+        </mxCell>
+        <object id="n27" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="850" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Área de Intervención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n28">
+          <mxGeometry x="528.6666666666667" y="850" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− lineaBase&#10;− metodologia&#10;− intensidadSemanal&#10;− objetivoGeneral&#10;− objetivosEspecificos&#10;− cumplimientoPorObjetivoEspecifico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n29">
+          <mxGeometry x="528.6666666666667" y="900" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n30" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="850" width="327" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Actividad Terapéutica" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n31">
+          <mxGeometry x="936.5" y="850" width="327" height="50" as="geometry" />
+        </mxCell>
+        <object id="n32" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="850" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Propuesta" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="1344.3333333333333" y="850" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− areasPropuestas&#10;− objetivosPropuestos&#10;− metodologiaPropuesta&#10;− intensidadPropuesta&#10;− actividadesTerapeuticasPropuestas&#10;− estadoRevision" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n34">
+          <mxGeometry x="1344.3333333333333" y="900" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n35" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="850" width="327" height="146" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Horario Terapéutico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n36">
+          <mxGeometry x="1752.1666666666665" y="850" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− dia&#10;− hora&#10;− espacio" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n37">
+          <mxGeometry x="1752.1666666666665" y="900" width="327" height="65" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarRecordatorioPorSesion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n38">
+          <mxGeometry x="1752.1666666666665" y="965" width="327" height="31" as="geometry" />
+        </mxCell>
+        <object id="n39" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="324.75" y="1150" width="327" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Evaluación Externa" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n40">
+          <mxGeometry x="324.75" y="1150" width="327" height="50" as="geometry" />
+        </mxCell>
+        <object id="n41" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="732.5833333333333" y="1150" width="327" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cita" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n42">
+          <mxGeometry x="732.5833333333333" y="1150" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− hora&#10;− tipo&#10;− capacitacionDelPlan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n43">
+          <mxGeometry x="732.5833333333333" y="1200" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="+ asignarEntrevistaACoordinadora()&#10;+ generarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n44">
+          <mxGeometry x="732.5833333333333" y="1282" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n45" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1140.4166666666665" y="1150" width="327" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cuenta de Acceso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n46">
+          <mxGeometry x="1140.4166666666665" y="1150" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− usuario&#10;− contrasena" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n47">
+          <mxGeometry x="1140.4166666666665" y="1200" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n48" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1548.2499999999998" y="1150" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Disponibilidad" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n49">
+          <mxGeometry x="1548.2499999999998" y="1150" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− dias&#10;− horaInicio&#10;− horaFin&#10;− ausencias&#10;− motivoAusencia&#10;− horasLibres" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n50">
+          <mxGeometry x="1548.2499999999998" y="1200" width="327" height="116" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n51">
+          <mxGeometry x="24" y="1426" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n52">
+          <mxGeometry x="40" y="1432" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n53" label="" tooltip="Participante externo de la especificación.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="1477" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«infraestructura»&#10;LLM" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e2e8f1;connectable=0;" vertex="1" parent="1" id="n54">
+          <mxGeometry x="474.66666666666663" y="1477" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarPropuestaPlan()&#10;+ generarPropuestaActividades()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n55">
+          <mxGeometry x="474.66666666666663" y="1527" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n56" label="" tooltip="Participante externo de la especificación.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="1477" width="408" height="81" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«infraestructura»&#10;RAG" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e2e8f1;connectable=0;" vertex="1" parent="1" id="n57">
+          <mxGeometry x="1317.3333333333335" y="1477" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recuperarInformacionClinica()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n58">
+          <mxGeometry x="1317.3333333333335" y="1527" width="408" height="31" as="geometry" />
+        </mxCell>
+        <object id="n59" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n60" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n61" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n62" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n32">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n63" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n27">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n64" label="" tooltip="Integración descrita en la especificación.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n53">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n65" label="" tooltip="Integración descrita en la especificación.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n56">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n66" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n67" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n68" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n41">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n69" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n45">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n70" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n71" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n19">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n72" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n19">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n73" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n45">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n74" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n48">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n75" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n35">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n76" label="" tooltip="Asociación del diccionario. Se contemplan varias por Plan">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n24" target="n27">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n77" label="" tooltip="Dependencia del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=none;" edge="1" parent="1" source="n24" target="n39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n78" label="" tooltip="Dependencia del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=none;" edge="1" parent="1" source="n24" target="n32">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n79" label="" tooltip="Asociación del diccionario. Se contemplan varias por Área">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n27" target="n30">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n80" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n35" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n81" label="" tooltip="Dependencia del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=none;" edge="1" parent="1" source="n35" target="n48">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="capas-F3" name="F3 Sesiones">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1527">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  F3 Sesiones" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: registrarAsistencia(), consultarSesionesAnteriores(), registrarTrabajoDeSesion(), registrarIncidente(), recibirNotificacionIncidente(), consultarDisponibilidad(), reprogramarSesion(), asignarTarea(), programarCitaCapacitacion(), registrarObservacionesTarea(), registrarRecomendacionDocente(), solicitarReunionConDocente(), programarCitaDocente(), registrarAdaptacionSugerida(), aprobarAdaptacionCurricular(), verificarConsentimiento(), registrarEntregaInformeInstitucion()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="474.66666666666663" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="474.66666666666663" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n8" label="" tooltip="Canal de interacción. Operaciones vinculadas: ingresarAlPortal(), consultarTareas()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Portal del representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="1317.3333333333335" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirConsulta()&#10;+ mostrarInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n10">
+          <mxGeometry x="1317.3333333333335" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n11">
+          <mxGeometry x="24" y="367" width="2152" height="265" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n13" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="264.0" y="418" width="408" height="183" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-08 · Gestionar sesiones terapéuticas" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n14">
+          <mxGeometry x="264.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarAsistencia()&#10;+ consultarSesionesAnteriores()&#10;+ registrarTrabajoDeSesion()&#10;+ registrarIncidente()&#10;+ recibirNotificacionIncidente()&#10;+ consultarDisponibilidad()&#10;+ reprogramarSesion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="264.0" y="468" width="408" height="133" as="geometry" />
+        </mxCell>
+        <object id="n16" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="896.0" y="418" width="408" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-09 · Gestionar trabajo con la familia" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="896.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ asignarTarea()&#10;+ programarCitaCapacitacion()&#10;+ registrarObservacionesTarea()&#10;+ ingresarAlPortal()&#10;+ consultarTareas()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n18">
+          <mxGeometry x="896.0" y="468" width="408" height="99" as="geometry" />
+        </mxCell>
+        <object id="n19" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1528.0" y="418" width="408" height="183" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-10 · Gestionar trabajo con la institución educativa" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="1528.0" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarRecomendacionDocente()&#10;+ solicitarReunionConDocente()&#10;+ programarCitaDocente()&#10;+ registrarAdaptacionSugerida()&#10;+ aprobarAdaptacionCurricular()&#10;+ verificarConsentimiento()&#10;+ registrarEntregaInformeInstitucion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n21">
+          <mxGeometry x="1528.0" y="468" width="408" height="133" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n22">
+          <mxGeometry x="24" y="697" width="2152" height="613" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n23">
+          <mxGeometry x="40" y="703" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n24" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="748" width="327" height="282" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Sesión" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n25">
+          <mxGeometry x="120.83333333333337" y="748" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− areaIntervencion&#10;− asistencia&#10;− objetivosEspecificosTrabajados&#10;− desempenoPorObjetivo&#10;− observaciones&#10;− recomendaciones&#10;− pendienteReprogramacion&#10;− nuevaFecha&#10;− motivoReprogramacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n26">
+          <mxGeometry x="120.83333333333337" y="798" width="327" height="184" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarRecordatorio()&#10;+ notificarIncidente()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n27">
+          <mxGeometry x="120.83333333333337" y="982" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n28" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="748" width="327" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Incidente" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n29">
+          <mxGeometry x="528.6666666666667" y="748" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− tipo&#10;− descripcion&#10;− accionesTomadas&#10;− fecha&#10;− hora" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n30">
+          <mxGeometry x="528.6666666666667" y="798" width="327" height="99" as="geometry" />
+        </mxCell>
+        <object id="n31" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="748" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Tarea" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n32">
+          <mxGeometry x="936.5" y="748" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− descripcion&#10;− frecuencia&#10;− objetivoEspecifico&#10;− observaciones" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="936.5" y="798" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n34" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="748" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Recomendación" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n35">
+          <mxGeometry x="1344.3333333333333" y="748" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− areaIntervencion&#10;− descripcion&#10;− fecha" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n36">
+          <mxGeometry x="1344.3333333333333" y="798" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n37" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="748" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Adaptación Curricular" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n38">
+          <mxGeometry x="1752.1666666666665" y="748" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− areaIntervencion&#10;− descripcion&#10;− fecha&#10;− estado" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n39">
+          <mxGeometry x="1752.1666666666665" y="798" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n40" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="1096" width="327" height="183" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Informe" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n41">
+          <mxGeometry x="120.83333333333337" y="1096" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− tipo&#10;− destinatario&#10;− fechaEntrega&#10;− historiaProceso&#10;− logros&#10;− recomendaciones&#10;− motivoAlta" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n42">
+          <mxGeometry x="120.83333333333337" y="1146" width="327" height="133" as="geometry" />
+        </mxCell>
+        <object id="n43" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="1096" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Disponibilidad" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n44">
+          <mxGeometry x="528.6666666666667" y="1096" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− dias&#10;− horaInicio&#10;− horaFin&#10;− ausencias&#10;− motivoAusencia&#10;− horasLibres" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n45">
+          <mxGeometry x="528.6666666666667" y="1146" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n46" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="1096" width="327" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cita" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n47">
+          <mxGeometry x="936.5" y="1096" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− hora&#10;− tipo&#10;− capacitacionDelPlan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n48">
+          <mxGeometry x="936.5" y="1146" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="+ asignarEntrevistaACoordinadora()&#10;+ generarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n49">
+          <mxGeometry x="936.5" y="1228" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n50" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="1096" width="327" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cuenta de Acceso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n51">
+          <mxGeometry x="1344.3333333333333" y="1096" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− usuario&#10;− contrasena" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n52">
+          <mxGeometry x="1344.3333333333333" y="1146" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n53" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="1096" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Expediente Clínico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n54">
+          <mxGeometry x="1752.1666666666665" y="1096" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosPaciente&#10;− datosRepresentante&#10;− estado&#10;− informacionCompartibleConTerceros&#10;− fechaCierre&#10;− plazoConservacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n55">
+          <mxGeometry x="1752.1666666666665" y="1146" width="327" height="116" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f1f5f7;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n56">
+          <mxGeometry x="24" y="1375" width="2152" height="87" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n57">
+          <mxGeometry x="40" y="1381" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <mxCell value="El caso de uso no especifica servicios externos para esta capa." style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=13;" vertex="1" parent="1" id="n58">
+          <mxGeometry x="40" y="1411" width="2120" height="26" as="geometry" />
+        </mxCell>
+        <object id="n59" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n60" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n43">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n61" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n62" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n63" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n64" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n65" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n46">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n66" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n50">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n67" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n68" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n19">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n69" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n37">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n70" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n46">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n71" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n53">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n72" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n40">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n73" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n19" target="n34">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n74" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n24" target="n28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n75" label="" tooltip="Dependencia del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=none;" edge="1" parent="1" source="n24" target="n43">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="capas-F4" name="F4 Seguimiento">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1547">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  F4 Seguimiento" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: solicitarEstudioCaso(), programarEstudioCaso(), registrarAcuerdos(), registrarNota(), recibirCumplimientoObjetivos(), registrarAjustesPlan(), elaborarInformeAvance(), programarEntregaInformeAvance(), registrarFechaEntrega(), registrarAlta(), registrarAltaPorMotivosExternos(), cerrarExpedienteClinico(), elaborarInformeAlta()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="474.66666666666663" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="474.66666666666663" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n8" label="" tooltip="Canal de interacción. Operaciones vinculadas: ingresarAlPortal(), consultarInformesAvance(), consultarInformeAlta()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Portal del representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="1317.3333333333335" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirConsulta()&#10;+ mostrarInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n10">
+          <mxGeometry x="1317.3333333333335" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n11">
+          <mxGeometry x="24" y="367" width="2152" height="333" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n13" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="418" width="408" height="251" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-11 · Gestionar progreso y estudio de caso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n14">
+          <mxGeometry x="474.66666666666663" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ solicitarEstudioCaso()&#10;+ programarEstudioCaso()&#10;+ registrarAcuerdos()&#10;+ registrarNota()&#10;+ recibirCumplimientoObjetivos()&#10;+ registrarAjustesPlan()&#10;+ elaborarInformeAvance()&#10;+ programarEntregaInformeAvance()&#10;+ registrarFechaEntrega()&#10;+ ingresarAlPortal()&#10;+ consultarInformesAvance()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="474.66666666666663" y="468" width="408" height="201" as="geometry" />
+        </mxCell>
+        <object id="n16" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="418" width="408" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-12 · Gestionar alta" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="1317.3333333333335" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarAlta()&#10;+ registrarAltaPorMotivosExternos()&#10;+ cerrarExpedienteClinico()&#10;+ elaborarInformeAlta()&#10;+ ingresarAlPortal()&#10;+ consultarInformeAlta()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n18">
+          <mxGeometry x="1317.3333333333335" y="468" width="408" height="116" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n19">
+          <mxGeometry x="24" y="765" width="2152" height="565" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="40" y="771" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n21" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="816" width="327" height="163" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Estudio de Caso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n22">
+          <mxGeometry x="120.83333333333337" y="816" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− hora&#10;− terapeutasParticipantes&#10;− acuerdos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n23">
+          <mxGeometry x="120.83333333333337" y="866" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n24">
+          <mxGeometry x="120.83333333333337" y="948" width="327" height="31" as="geometry" />
+        </mxCell>
+        <object id="n25" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="816" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Nota" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n26">
+          <mxGeometry x="528.6666666666667" y="816" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− areaIntervencion&#10;− contenido&#10;− fecha" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n27">
+          <mxGeometry x="528.6666666666667" y="866" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n28" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="816" width="327" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Alta" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n29">
+          <mxGeometry x="936.5" y="816" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− alcance&#10;− tipo&#10;− fecha&#10;− areasQueCierra&#10;− motivo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n30">
+          <mxGeometry x="936.5" y="866" width="327" height="99" as="geometry" />
+        </mxCell>
+        <object id="n31" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="816" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Área de Intervención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n32">
+          <mxGeometry x="1344.3333333333333" y="816" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− lineaBase&#10;− metodologia&#10;− intensidadSemanal&#10;− objetivoGeneral&#10;− objetivosEspecificos&#10;− cumplimientoPorObjetivoEspecifico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="1344.3333333333333" y="866" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n34" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="816" width="327" height="234" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Plan de Intervención" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n35">
+          <mxGeometry x="1752.1666666666665" y="816" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− estado&#10;− fechaAprobacion&#10;− vigencia&#10;− ajustesIntensidad&#10;− areasAgregadas&#10;− areasRetiradas&#10;− nuevosObjetivosEspecificos&#10;− version&#10;− temaCapacitacion&#10;− frecuenciaCapacitacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n36">
+          <mxGeometry x="1752.1666666666665" y="866" width="327" height="184" as="geometry" />
+        </mxCell>
+        <object id="n37" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="324.75" y="1116" width="327" height="183" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Informe" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n38">
+          <mxGeometry x="324.75" y="1116" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− tipo&#10;− destinatario&#10;− fechaEntrega&#10;− historiaProceso&#10;− logros&#10;− recomendaciones&#10;− motivoAlta" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n39">
+          <mxGeometry x="324.75" y="1166" width="327" height="133" as="geometry" />
+        </mxCell>
+        <object id="n40" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="732.5833333333333" y="1116" width="327" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cita" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n41">
+          <mxGeometry x="732.5833333333333" y="1116" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− fecha&#10;− hora&#10;− tipo&#10;− capacitacionDelPlan" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n42">
+          <mxGeometry x="732.5833333333333" y="1166" width="327" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="+ asignarEntrevistaACoordinadora()&#10;+ generarRecordatorio()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n43">
+          <mxGeometry x="732.5833333333333" y="1248" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n44" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1140.4166666666665" y="1116" width="327" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cuenta de Acceso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n45">
+          <mxGeometry x="1140.4166666666665" y="1116" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− usuario&#10;− contrasena" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n46">
+          <mxGeometry x="1140.4166666666665" y="1166" width="327" height="48" as="geometry" />
+        </mxCell>
+        <object id="n47" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1548.2499999999998" y="1116" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Expediente Clínico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n48">
+          <mxGeometry x="1548.2499999999998" y="1116" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosPaciente&#10;− datosRepresentante&#10;− estado&#10;− informacionCompartibleConTerceros&#10;− fechaCierre&#10;− plazoConservacion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n49">
+          <mxGeometry x="1548.2499999999998" y="1166" width="327" height="116" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f1f5f7;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n50">
+          <mxGeometry x="24" y="1395" width="2152" height="87" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n51">
+          <mxGeometry x="40" y="1401" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <mxCell value="El caso de uso no especifica servicios externos para esta capa." style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=13;" vertex="1" parent="1" id="n52">
+          <mxGeometry x="40" y="1431" width="2120" height="26" as="geometry" />
+        </mxCell>
+        <object id="n53" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n54" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n55" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n40">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n56" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n44">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n57" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n58" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n37">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n59" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n25">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n60" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n34">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n61" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n62" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n63" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n64" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n65" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n44">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n66" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n47">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n67" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n37">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n68" label="" tooltip="Asociación del diccionario. Una por registro">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n25" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n69" label="" tooltip="Asociación del diccionario. Un informe de alta en el flujo">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n28" target="n37">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n70" label="" tooltip="Asociación del diccionario. Se contempla el cierre de varias">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n28" target="n31">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n71" label="" tooltip="Dependencia del diccionario. Cierre condicionado al alta general">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;dashed=1;endArrow=none;" edge="1" parent="1" source="n28" target="n47">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="capas-S1" name="S1 Recursos del centro">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1292">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  S1 Recursos del centro" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: registrarProfesional(), registrarEspacio(), registrarMaterialDidactico(), registrarDisponibilidadProfesional(), registrarDisponibilidadEspacio(), registrarPrestamo(), cerrarPrestamo()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="896.0" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="896.0" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="896.0" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n8">
+          <mxGeometry x="24" y="367" width="2152" height="214" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n10" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="418" width="408" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-13 · Gestionar incorporación de recursos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n11">
+          <mxGeometry x="474.66666666666663" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarProfesional()&#10;+ registrarEspacio()&#10;+ registrarMaterialDidactico()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="474.66666666666663" y="468" width="408" height="65" as="geometry" />
+        </mxCell>
+        <object id="n13" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="418" width="408" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-14 · Gestionar disponibilidad de recursos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n14">
+          <mxGeometry x="1317.3333333333335" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarDisponibilidadProfesional()&#10;+ registrarDisponibilidadEspacio()&#10;+ registrarPrestamo()&#10;+ cerrarPrestamo()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="1317.3333333333335" y="468" width="408" height="82" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n16">
+          <mxGeometry x="24" y="646" width="2152" height="429" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="40" y="652" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n18" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="120.83333333333337" y="697" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Profesional" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n19">
+          <mxGeometry x="120.83333333333337" y="697" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− datosIdentificacion&#10;− especialidad&#10;− habilitacion&#10;− rol" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="120.83333333333337" y="747" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n21" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="528.6666666666667" y="697" width="327" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Área Terapéutica" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n22">
+          <mxGeometry x="528.6666666666667" y="697" width="327" height="50" as="geometry" />
+        </mxCell>
+        <object id="n23" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="697" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Espacio" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n24">
+          <mxGeometry x="936.5" y="697" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− nombre&#10;− tipo&#10;− capacidad" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n25">
+          <mxGeometry x="936.5" y="747" width="327" height="65" as="geometry" />
+        </mxCell>
+        <object id="n26" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1344.3333333333333" y="697" width="327" height="166" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Disponibilidad" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n27">
+          <mxGeometry x="1344.3333333333333" y="697" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− dias&#10;− horaInicio&#10;− horaFin&#10;− ausencias&#10;− motivoAusencia&#10;− horasLibres" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n28">
+          <mxGeometry x="1344.3333333333333" y="747" width="327" height="116" as="geometry" />
+        </mxCell>
+        <object id="n29" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1752.1666666666665" y="697" width="327" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Material Didáctico" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n30">
+          <mxGeometry x="1752.1666666666665" y="697" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− nombre&#10;− areaTerapeutica&#10;− cantidad&#10;− estado" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n31">
+          <mxGeometry x="1752.1666666666665" y="747" width="327" height="82" as="geometry" />
+        </mxCell>
+        <object id="n32" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="936.5" y="929" width="327" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Préstamo" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="936.5" y="929" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− profesional&#10;− fechaEntrega&#10;− fechaDevolucion" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n34">
+          <mxGeometry x="936.5" y="979" width="327" height="65" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f1f5f7;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n35">
+          <mxGeometry x="24" y="1140" width="2152" height="87" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n36">
+          <mxGeometry x="40" y="1146" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <mxCell value="El caso de uso no especifica servicios externos para esta capa." style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=13;" vertex="1" parent="1" id="n37">
+          <mxGeometry x="40" y="1176" width="2120" height="26" as="geometry" />
+        </mxCell>
+        <object id="n38" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n10">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n39" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n10" target="n23">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n40" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n10" target="n29">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n41" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n10" target="n18">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n42" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n43" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n26">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n44" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n32">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n45" label="" tooltip="Asociación del diccionario. Una especialidad en el registro descrito">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n18" target="n21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n46" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n18" target="n26">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n47" label="" tooltip="Asociación del diccionario. Sin especificar">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n23" target="n26">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n48" label="" tooltip="Asociación del diccionario. Una por registro">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n29" target="n21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n49" label="" tooltip="Asociación del diccionario. Uno por préstamo en el flujo">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n32" target="n18">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n50" label="" tooltip="Asociación del diccionario. Uno por préstamo en el flujo">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n32" target="n29">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="capas-S2" name="S2 Pagos">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff" pageWidth="2200" pageHeight="1230">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell value="Diagrama de robustez  ·  S2 Pagos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=30;fontStyle=1;" vertex="1" parent="1" id="n1">
+          <mxGeometry x="34" y="24" width="2132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell value="CIMA · Vista de clases por capas · Líneas continuas: vínculos estructurales · Discontinuas: dependencias" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=14;" vertex="1" parent="1" id="n2">
+          <mxGeometry x="35" y="70" width="2130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n3">
+          <mxGeometry x="24" y="122" width="2152" height="180" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE BORDE" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n4">
+          <mxGeometry x="40" y="128" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n5" label="" tooltip="Canal de interacción. Operaciones vinculadas: registrarPagador(), registrarPago(), registrarComprobantePago(), generarReporteMensual(), consultarPagosPendientes()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Aplicación interna" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n6">
+          <mxGeometry x="474.66666666666663" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ capturarDatos()&#10;+ mostrarResultado()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n7">
+          <mxGeometry x="474.66666666666663" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <object id="n8" label="" tooltip="Canal de interacción. Operaciones vinculadas: ingresarAlPortal(), consultarPagos()">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="173" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«borde»&#10;Portal del representante" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#deebf5;connectable=0;" vertex="1" parent="1" id="n9">
+          <mxGeometry x="1317.3333333333335" y="173" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ recibirConsulta()&#10;+ mostrarInformacion()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n10">
+          <mxGeometry x="1317.3333333333335" y="223" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#edf2f5;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n11">
+          <mxGeometry x="24" y="367" width="2152" height="231" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE CONTROL" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n12">
+          <mxGeometry x="40" y="373" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n13" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="474.66666666666663" y="418" width="408" height="149" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-15 · Gestionar registro de pagos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n14">
+          <mxGeometry x="474.66666666666663" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ registrarPagador()&#10;+ registrarPago()&#10;+ registrarComprobantePago()&#10;+ ingresarAlPortal()&#10;+ consultarPagos()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n15">
+          <mxGeometry x="474.66666666666663" y="468" width="408" height="99" as="geometry" />
+        </mxCell>
+        <object id="n16" label="" tooltip="Control funcional derivado del caso de uso.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1317.3333333333335" y="418" width="408" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«control»&#10;CU-16 · Gestionar control de pagos" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#dbe8ef;connectable=0;" vertex="1" parent="1" id="n17">
+          <mxGeometry x="1317.3333333333335" y="418" width="408" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="+ generarReporteMensual()&#10;+ consultarPagosPendientes()" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n18">
+          <mxGeometry x="1317.3333333333335" y="468" width="408" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f5f8fa;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n19">
+          <mxGeometry x="24" y="663" width="2152" height="350" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE ENTIDADES DEL DOMINIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n20">
+          <mxGeometry x="40" y="669" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <object id="n21" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="169.60000000000002" y="714" width="368" height="132" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Pagador" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n22">
+          <mxGeometry x="169.60000000000002" y="714" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− nombreORazonSocial&#10;− cedulaORuc&#10;− correo&#10;− telefono" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n23">
+          <mxGeometry x="169.60000000000002" y="764" width="368" height="82" as="geometry" />
+        </mxCell>
+        <object id="n24" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="667.2" y="714" width="368" height="268" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Pago" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n25">
+          <mxGeometry x="667.2" y="714" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− numeroRegistro&#10;− fechaPago&#10;− mesPagado&#10;− paciente&#10;− cedulaPaciente&#10;− datosFacturacion&#10;− areasIncluidas&#10;− montoTotalPagado&#10;− tipoPago&#10;− metodoPago&#10;− observaciones&#10;− saldoPendiente" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n26">
+          <mxGeometry x="667.2" y="764" width="368" height="218" as="geometry" />
+        </mxCell>
+        <object id="n27" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1164.8000000000002" y="714" width="368" height="115" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Comprobante de Pago" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n28">
+          <mxGeometry x="1164.8000000000002" y="714" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− bancoReceptor&#10;− numeroComprobante&#10;− archivoAdjunto" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n29">
+          <mxGeometry x="1164.8000000000002" y="764" width="368" height="65" as="geometry" />
+        </mxCell>
+        <object id="n30" label="" tooltip="Entidad del diccionario de clases de CIMA.">
+          <mxCell value="" style="fillColor=#ffffff;strokeColor=#7f96a6;strokeWidth=1.15;" vertex="1" parent="1">
+            <mxGeometry x="1662.4" y="714" width="368" height="98" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell value="«entidad»&#10;Cuenta de Acceso" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;strokeColor=#7f96a6;align=center;fontSize=14;fontStyle=1;fillColor=#e1ebea;connectable=0;" vertex="1" parent="1" id="n31">
+          <mxGeometry x="1662.4" y="714" width="368" height="50" as="geometry" />
+        </mxCell>
+        <mxCell value="− usuario&#10;− contrasena" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontFamily=Consolas;fontSize=13;spacingLeft=9;spacingTop=4;verticalAlign=top;strokeColor=#a6b6c1;fillColor=#ffffff;connectable=0;" vertex="1" parent="1" id="n32">
+          <mxGeometry x="1662.4" y="764" width="368" height="48" as="geometry" />
+        </mxCell>
+        <mxCell value="" style="fillColor=#f1f5f7;strokeColor=#d6e0e6;" vertex="1" parent="1" id="n33">
+          <mxGeometry x="24" y="1078" width="2152" height="87" as="geometry" />
+        </mxCell>
+        <mxCell value="CAPA DE INFRAESTRUCTURA" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=16;fontStyle=1;" vertex="1" parent="1" id="n34">
+          <mxGeometry x="40" y="1084" width="2120" height="27" as="geometry" />
+        </mxCell>
+        <mxCell value="El caso de uso no especifica servicios externos para esta capa." style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fontFamily=Arial;fontColor=#234257;fontSize=13;" vertex="1" parent="1" id="n35">
+          <mxGeometry x="40" y="1114" width="2120" height="26" as="geometry" />
+        </mxCell>
+        <object id="n36" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n37" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n8" target="n13">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n38" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n27">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n39" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n30">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n40" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n41" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n13" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n42" label="" tooltip="El borde canaliza las interacciones del caso de uso.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n5" target="n16">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n43" label="" tooltip="Entidad consultada o modificada por el control.">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;" edge="1" parent="1" source="n16" target="n24">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n44" label="" tooltip="Asociación del diccionario. Un conjunto de datos de facturación por registro">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n24" target="n21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object id="n45" label="" tooltip="Asociación del diccionario. Uno en el flujo de pago no efectivo">
+          <mxCell value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jettySize=18;jumpStyle=arc;jumpSize=7;strokeWidth=1.1;strokeColor=#557286;html=0;fontSize=11;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="n24" target="n27">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

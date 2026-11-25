@@ -1,0 +1,1126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="cima-consolidado" name="Diagrama consolidado">
+    <mxGraphModel grid="0" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="heading" value="Diagrama de clases de CIMA" vertex="1" parent="1" style="text;html=0;strokeColor=none;align=left;fontFamily=Arial;fontSize=30;fontColor=#18334a;">
+          <mxGeometry as="geometry" x="35" y="22" width="700" height="48" />
+        </mxCell>
+        <mxCell id="legend" value="35 clases · Línea continua: asociación · Línea discontinua: dependencia · Pase el cursor sobre una relación para leer la cardinalidad documentada." vertex="1" parent="1" style="text;html=0;strokeColor=none;align=left;fontFamily=Arial;fontSize=14;fontColor=#18334a;">
+          <mxGeometry as="geometry" x="35" y="70" width="1200" height="32" />
+        </mxCell>
+        <mxCell id="class-0" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="896" width="375" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="class-0-title" value="Representante" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-0">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-0-body-0" value="datosIdentificacion&#10;parentesco&#10;custodia" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-0">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-0-body-1" value="solicitarAtencion()&#10;firmarConsentimiento()&#10;aprobarPlanIntervencion()&#10;elegirHorario()&#10;ingresarAlPortal()&#10;consultarConsentimientos()&#10;consultarPlanIntervencion()&#10;consultarHorarioTerapeutico()&#10;consultarTareas()&#10;consultarInformesDeAvance()&#10;consultarInformeDeAlta()&#10;consultarPagos()&#10;solicitarAlta()" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#edf3f8;connectable=0;" vertex="1" parent="class-0">
+          <mxGeometry x="0" y="106" width="375" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="class-1" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="896" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-1-title" value="Paciente" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-1">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-1-body-0" value="datosIdentificacion&#10;cedula&#10;antecedentes&#10;gradoEscolar" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-1">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-2" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="140" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-2-title" value="Solicitud de Atención" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-2">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-2-body-0" value="datosBasicos&#10;motivoConsulta&#10;derivacion&#10;pendienteRevision" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-2">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-3" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="563" width="375" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="class-3-title" value="Cita" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-3">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-3-body-0" value="fecha&#10;hora&#10;tipo&#10;capacitacionDelPlan" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-3">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-3-body-1" value="asignarEntrevistaACoordinadora()&#10;generarRecordatorio()" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#edf3f8;connectable=0;" vertex="1" parent="class-3">
+          <mxGeometry x="0" y="124" width="375" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="class-4" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1407" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-4-title" value="Evaluación Externa" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-4">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-5" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="563" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-5-title" value="Documento Previo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-5">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-5-body-0" value="tipo&#10;origen&#10;fecha&#10;archivo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-5">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-6" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="563" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-6-title" value="Institución Educativa" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-6">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-6-body-0" value="nombre&#10;telefono&#10;direccion" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-6">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-7" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="563" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-7-title" value="Docente" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-7">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-7-body-0" value="nombres&#10;telefono&#10;correo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-7">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-8" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1846" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-8-title" value="Consentimiento" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-8">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-8-body-0" value="tipo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-8">
+          <mxGeometry x="0" y="36" width="375" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="class-9" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1846" width="375" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="class-9-title" value="Expediente Clínico" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-9">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-9-body-0" value="datosPaciente&#10;datosRepresentante&#10;estado&#10;informacionCompartibleConTerceros&#10;fechaCierre&#10;plazoConservacion" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-9">
+          <mxGeometry x="0" y="36" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-10" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="1846" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-10-title" value="Cuenta de Acceso" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-10">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-10-body-0" value="usuario&#10;contrasena" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-10">
+          <mxGeometry x="0" y="36" width="375" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="class-11" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="1407" width="375" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="class-11-title" value="Plan de Intervención" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-11">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-11-body-0" value="estado&#10;fechaAprobacion&#10;vigencia&#10;ajustesIntensidad&#10;areasAgregadas&#10;areasRetiradas&#10;nuevosObjetivosEspecificos&#10;version&#10;temaCapacitacion&#10;frecuenciaCapacitacion" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-11">
+          <mxGeometry x="0" y="36" width="375" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="class-12" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1407" width="375" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="class-12-title" value="Área de Intervención" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-12">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-12-body-0" value="lineaBase&#10;metodologia&#10;intensidadSemanal&#10;objetivoGeneral&#10;objetivosEspecificos&#10;cumplimientoPorObjetivoEspecifico" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-12">
+          <mxGeometry x="0" y="36" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-13" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1846" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-13-title" value="Actividad Terapéutica" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-13">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-14" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2705" y="1846" width="375" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="class-14-title" value="Propuesta" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-14">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-14-body-0" value="areasPropuestas&#10;objetivosPropuestos&#10;metodologiaPropuesta&#10;intensidadPropuesta&#10;actividadesTerapeuticasPropuestas&#10;estadoRevision" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-14">
+          <mxGeometry x="0" y="36" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-15" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2705" y="896" width="375" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="class-15-title" value="Horario Terapéutico" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-15">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-15-body-0" value="dia&#10;hora&#10;espacio" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-15">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-15-body-1" value="generarRecordatorioPorSesion()" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#edf3f8;connectable=0;" vertex="1" parent="class-15">
+          <mxGeometry x="0" y="106" width="375" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="class-16" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2705" y="1407" width="375" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="class-16-title" value="Sesión" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-16">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-16-body-0" value="fecha&#10;areaIntervencion&#10;asistencia&#10;objetivosEspecificosTrabajados&#10;desempenoPorObjetivo&#10;observaciones&#10;recomendaciones&#10;pendienteReprogramacion&#10;nuevaFecha&#10;motivoReprogramacion" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-16">
+          <mxGeometry x="0" y="36" width="375" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="class-16-body-1" value="generarRecordatorio()&#10;notificarIncidente()" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#edf3f8;connectable=0;" vertex="1" parent="class-16">
+          <mxGeometry x="0" y="232" width="375" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="class-17" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="1846" width="375" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="class-17-title" value="Incidente" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-17">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-17-body-0" value="tipo&#10;descripcion&#10;accionesTomadas&#10;fecha&#10;hora" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-17">
+          <mxGeometry x="0" y="36" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-18" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="896" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-18-title" value="Tarea" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-18">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-18-body-0" value="descripcion&#10;frecuencia&#10;objetivoEspecifico&#10;observaciones" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-18">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-19" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1407" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-19-title" value="Recomendación" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-19">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-19-body-0" value="areaIntervencion&#10;descripcion&#10;fecha" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-19">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-20" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="896" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-20-title" value="Adaptación Curricular" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-20">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-20-body-0" value="areaIntervencion&#10;descripcion&#10;fecha&#10;estado" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-20">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-21" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="563" width="375" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="class-21-title" value="Informe" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-21">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-21-body-0" value="tipo&#10;destinatario&#10;fechaEntrega&#10;historiaProceso&#10;logros&#10;recomendaciones&#10;motivoAlta" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-21">
+          <mxGeometry x="0" y="36" width="375" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="class-22" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="896" width="375" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="class-22-title" value="Estudio de Caso" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-22">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-22-body-0" value="fecha&#10;hora&#10;terapeutasParticipantes&#10;acuerdos" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-22">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-22-body-1" value="generarRecordatorio()" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#edf3f8;connectable=0;" vertex="1" parent="class-22">
+          <mxGeometry x="0" y="124" width="375" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="class-23" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1846" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-23-title" value="Nota" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-23">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-23-body-0" value="areaIntervencion&#10;contenido&#10;fecha" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-23">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-24" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1407" width="375" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="class-24-title" value="Alta" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-24">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-24-body-0" value="alcance&#10;tipo&#10;fecha&#10;areasQueCierra&#10;motivo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-24">
+          <mxGeometry x="0" y="36" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-25" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2705" y="563" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-25-title" value="Profesional" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-25">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-25-body-0" value="datosIdentificacion&#10;especialidad&#10;habilitacion&#10;rol" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-25">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-26" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="140" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-26-title" value="Área Terapéutica" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-26">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-27" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="1407" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-27-title" value="Espacio" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-27">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-27-body-0" value="nombre&#10;tipo&#10;capacidad" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-27">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-28" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="896" width="375" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="class-28-title" value="Disponibilidad" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-28">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-28-body-0" value="dias&#10;horaInicio&#10;horaFin&#10;ausencias&#10;motivoAusencia&#10;horasLibres" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-28">
+          <mxGeometry x="0" y="36" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-29" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="140" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-29-title" value="Material Didáctico" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-29">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-29-body-0" value="nombre&#10;areaTerapeutica&#10;cantidad&#10;estado" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-29">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-30" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2705" y="140" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-30-title" value="Préstamo" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-30">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-30-body-0" value="profesional&#10;fechaEntrega&#10;fechaDevolucion" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-30">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-31" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="140" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-31-title" value="Pagador" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-31">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-31-body-0" value="nombreORazonSocial&#10;cedulaORuc&#10;correo&#10;telefono" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-31">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="class-32" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="140" width="375" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="class-32-title" value="Pago" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-32">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-32-body-0" value="numeroRegistro&#10;fechaPago&#10;mesPagado&#10;paciente&#10;cedulaPaciente&#10;datosFacturacion&#10;areasIncluidas&#10;montoTotalPagado&#10;tipoPago&#10;metodoPago&#10;observaciones&#10;saldoPendiente" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-32">
+          <mxGeometry x="0" y="36" width="375" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="class-33" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="140" width="375" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="class-33-title" value="Comprobante de Pago" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-33">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-33-body-0" value="bancoReceptor&#10;numeroComprobante&#10;archivoAdjunto" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-33">
+          <mxGeometry x="0" y="36" width="375" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="class-34" value="" style="group;container=1;collapsible=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="563" width="375" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="class-34-title" value="Recordatorio" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;fillColor=#e1edf6;fontColor=#18334a;fontSize=16;fontStyle=1;connectable=0;" vertex="1" parent="class-34">
+          <mxGeometry x="0" y="0" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="class-34-body-0" value="destinatario&#10;fechaEnvio&#10;horaEnvio&#10;estado" style="strokeColor=none;align=left;spacingLeft=10;fontFamily=Arial;html=0;whiteSpace=wrap;verticalAlign=top;spacingTop=4;fillColor=#f5f8fb;fontColor=#26394a;fontSize=13;fillColor=#f5f8fb;connectable=0;" vertex="1" parent="class-34">
+          <mxGeometry x="0" y="36" width="375" height="88" as="geometry" />
+        </mxCell>
+        <object id="edge-0" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.25;entryX=1;entryY=0.16666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1623.0" y="985.0" />
+                <mxPoint x="1623" y="916.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-1" label="" tooltip="Uno de atención y uno de uso de información en admisión">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-8">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1832.5" y="1274.0" />
+                <mxPoint x="1623" y="1274" />
+                <mxPoint x="1623" y="1824" />
+                <mxPoint x="1832.5" y="1824" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-1" value="2 tipos" vertex="1" connectable="0" parent="edge-1" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-2" label="" tooltip="Una cuenta creada en el flujo CU-04">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.75;exitY=1;entryX=0.5;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-10">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1926.25" y="1274.0" />
+                <mxPoint x="2139" y="1274" />
+                <mxPoint x="2139" y="1824" />
+                <mxPoint x="2362.5" y="1824" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-2" value="1 en el flujo" vertex="1" connectable="0" parent="edge-2" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-3" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.75;entryX=0;entryY=0.2;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-11">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2042.0" y="1163.0" />
+                <mxPoint x="2042" y="1453.4" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-4" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.3333333333333333;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-15">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2669" y="1074.0" />
+                <mxPoint x="2669" y="942.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-5" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.3333333333333333;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-18">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="982" y="1074.0" />
+                <mxPoint x="982" y="937.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-6" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.4;exitY=0;entryX=0.5;entryY=1;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-21">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1795.0" y="763" />
+                <mxPoint x="1832.5" y="763" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-7" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.2;exitY=0;entryX=0.6666666666666666;entryY=1;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-32">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1720.0" y="874.0" />
+                <mxPoint x="1526" y="874" />
+                <mxPoint x="1526" y="444" />
+                <mxPoint x="1365.0" y="444" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-8" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.6;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-0" target="class-2">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1870.0" y="874.0" />
+                <mxPoint x="2056" y="874" />
+                <mxPoint x="2056" y="286" />
+                <mxPoint x="1832.5" y="286" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-9" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-1" target="class-4">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1512.0" y="958.0" />
+                <mxPoint x="1512" y="1425.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-10" label="" tooltip="Admite varios documentos por Paciente">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.3333333333333333;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-1" target="class-5">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1240.0" y="709" />
+                <mxPoint x="1302.5" y="709" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-11" label="" tooltip="Una por Paciente en el registro escolar descrito, si asiste">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-1" target="class-6">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1093.0" y="958.0" />
+                <mxPoint x="1093" y="633.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-11" value="1 en el flujo" vertex="1" connectable="0" parent="edge-11" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-12" label="" tooltip="Una cita de entrevista inicial en el flujo CU-01">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.2;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-2" target="class-3">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2042.0" y="202.0" />
+                <mxPoint x="2042" y="598.2" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-12" value="1 en el flujo" vertex="1" connectable="0" parent="edge-12" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-13" label="" tooltip="Uno por generación">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;entryX=0;entryY=0.25;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-34">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2572.0" y="621.667" />
+                <mxPoint x="2572" y="541" />
+                <mxPoint x="3213" y="541" />
+                <mxPoint x="3213" y="594.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-13" value="1 en el flujo" vertex="1" connectable="0" parent="edge-13" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-14" label="" tooltip="En la Cita de capacitación se indica la capacitación del plan.">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-11">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2362.5" y="761.0" />
+                <mxPoint x="2572" y="761" />
+                <mxPoint x="2572" y="1385" />
+                <mxPoint x="2362.5" y="1385" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-15" label="" tooltip="Un destinatario en la cita con Docente">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.4;entryX=1;entryY=0.3333333333333333;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-7">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2153.0" y="633.4" />
+                <mxPoint x="2153" y="541" />
+                <mxPoint x="452" y="541" />
+                <mxPoint x="452" y="598.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-15" value="1 en el flujo" vertex="1" connectable="0" parent="edge-15" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-16" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.6;entryX=1;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-21">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2153.0" y="668.6" />
+                <mxPoint x="2153" y="652.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-17" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.8;entryX=1;entryY=0.25;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-0">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2153.0" y="703.8" />
+                <mxPoint x="2153" y="985.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-18" label="" tooltip="Una Coordinadora asignada a la entrevista inicial">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.6666666666666666;entryX=0;entryY=0.4;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-3" target="class-25">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2572.0" y="680.333" />
+                <mxPoint x="2572" y="612.6" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-18" value="1 en el flujo" vertex="1" connectable="0" parent="edge-18" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-19" label="" tooltip="Se contemplan varios por Institución Educativa">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;entryX=1;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-6" target="class-7">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="563.0" y="598.333" />
+                <mxPoint x="563" y="633.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-20" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.25;exitY=0;entryX=0.3333333333333333;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-9" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1208.75" y="1824.0" />
+                <mxPoint x="1079" y="1824" />
+                <mxPoint x="1079" y="1042" />
+                <mxPoint x="1240.0" y="1042" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-21" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.75;exitY=0;entryX=0.25;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-9" target="class-0">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1396.25" y="1824.0" />
+                <mxPoint x="1609" y="1824" />
+                <mxPoint x="1609" y="1288" />
+                <mxPoint x="1738.75" y="1288" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-22" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-9" target="class-8">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1512.0" y="1926.0" />
+                <mxPoint x="1512" y="1881.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-23" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-9" target="class-23">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1093.0" y="1926.0" />
+                <mxPoint x="1093" y="1899.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-24" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.4;entryX=1;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-11" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1526" y="1499.8" />
+                <mxPoint x="1526" y="978.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-25" label="" tooltip="Se contemplan varias por Plan">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.6;entryX=1;entryY=0.4;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-11" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2153.0" y="1546.2" />
+                <mxPoint x="2153" y="1561.667" />
+                <mxPoint x="982" y="1561.667" />
+                <mxPoint x="982" y="1471.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-25" value="Varios posibles" vertex="1" connectable="0" parent="edge-25" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-26" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.8;entryX=1;entryY=0.5;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-11" target="class-4">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2153.0" y="1592.6" />
+                <mxPoint x="2153" y="1425.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-27" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.6666666666666666;entryX=0;entryY=0.5;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-11" target="class-14">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2572.0" y="1561.667" />
+                <mxPoint x="2572" y="1926.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-28" label="" tooltip="Un Terapeuta asignado por Área">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.2;entryX=0;entryY=0.8;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-12" target="class-25">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="996" y="1439.0" />
+                <mxPoint x="996" y="775" />
+                <mxPoint x="2669" y="775" />
+                <mxPoint x="2669" y="662.2" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-28" value="1 en el flujo" vertex="1" connectable="0" parent="edge-28" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-29" label="" tooltip="Se contemplan varias por Área">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.75;entryX=1;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-12" target="class-13">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="563.0" y="1527.0" />
+                <mxPoint x="563" y="1864.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-29" value="Varios posibles" vertex="1" connectable="0" parent="edge-29" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-30" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.6666666666666666;entryX=1;entryY=0.3333333333333333;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-15" target="class-11">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2683.0" y="989.333" />
+                <mxPoint x="2683" y="1484.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-31" label="" tooltip="Se contemplan varias por Horario">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.3333333333333333;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-15" target="class-16">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2892.5" y="1385" />
+                <mxPoint x="2830.0" y="1385" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-31" value="Varios posibles" vertex="1" connectable="0" parent="edge-31" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-32" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.75;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-15" target="class-27">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="1001.0" />
+                <mxPoint x="3102" y="1460.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-33" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-15" target="class-28">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="966.0" />
+                <mxPoint x="3102" y="976.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-34" label="" tooltip="Genera uno por cada Sesión">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.25;entryX=0;entryY=0.5;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-15" target="class-34">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="931.0" />
+                <mxPoint x="3102" y="625.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-35" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;entryX=1;entryY=0.8333333333333334;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-16" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2586" y="1501.667" />
+                <mxPoint x="2586" y="1371" />
+                <mxPoint x="1623" y="1371" />
+                <mxPoint x="1623" y="999.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-36" label="" tooltip="Una por Sesión en el flujo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.6666666666666666;entryX=1;entryY=0.6;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-16" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2683.0" y="1596.333" />
+                <mxPoint x="2683" y="1661" />
+                <mxPoint x="996" y="1661" />
+                <mxPoint x="996" y="1503.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-36" value="1 en el flujo" vertex="1" connectable="0" parent="edge-36" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-37" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.6666666666666666;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-16" target="class-17">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="1596.333" />
+                <mxPoint x="3102" y="1917.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-38" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;entryX=0;entryY=0.75;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-16" target="class-28">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3213" y="1501.667" />
+                <mxPoint x="3213" y="1016.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-39" label="" tooltip="Uno al reprogramar en el flujo descrito">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.6666666666666666;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-16" target="class-34">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2955.0" y="1385.0" />
+                <mxPoint x="3199" y="1385" />
+                <mxPoint x="3199" y="709" />
+                <mxPoint x="3422.5" y="709" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-39" value="1 en el flujo" vertex="1" connectable="0" parent="edge-39" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-40" label="" tooltip="Consulta o referencia a sus objetivos específicos según el flujo.">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-18" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-41" label="" tooltip="Un destinatario por Tarea">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-18" target="class-0">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1079" y="937.333" />
+                <mxPoint x="1079" y="1072" />
+                <mxPoint x="1623" y="1072" />
+                <mxPoint x="1623" y="1074.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-41" value="1 en el flujo" vertex="1" connectable="0" parent="edge-41" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-42" label="" tooltip="Una por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-19" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="452.0" y="1460.0" />
+                <mxPoint x="452" y="1487.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-42" value="1 en el flujo" vertex="1" connectable="0" parent="edge-42" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-43" label="" tooltip="Un destinatario por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-19" target="class-7">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="242.5" y="1385.0" />
+                <mxPoint x="33" y="1385" />
+                <mxPoint x="33" y="691" />
+                <mxPoint x="242.5" y="691" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-43" value="1 en el flujo" vertex="1" connectable="0" parent="edge-43" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-44" label="" tooltip="Una por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.6666666666666666;entryX=0;entryY=0.25;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-20" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="452.0" y="978.667" />
+                <mxPoint x="452" y="1447.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-44" value="1 en el flujo" vertex="1" connectable="0" parent="edge-44" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-45" label="" tooltip="Una destinataria en el flujo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;entryX=0;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-20" target="class-6">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="563" y="937.333" />
+                <mxPoint x="563" y="633.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-45" value="1 en el flujo" vertex="1" connectable="0" parent="edge-45" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-46" label="" tooltip="Entrega condicionada a la autorización">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.3333333333333333;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-21" target="class-6">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1623.0" y="652.0" />
+                <mxPoint x="1623" y="703.8" />
+                <mxPoint x="982" y="703.8" />
+                <mxPoint x="982" y="598.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-47" label="" tooltip="Un destinatario en la entrega descrita">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.4;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-21" target="class-0">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1832.5" y="874" />
+                <mxPoint x="1795.0" y="874" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-47" value="1 en el flujo" vertex="1" connectable="0" parent="edge-47" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-48" label="" tooltip="Se programa mensualmente para el Paciente">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.3333333333333333;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-22" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2042" y="975.0" />
+                <mxPoint x="2042" y="860" />
+                <mxPoint x="1512" y="860" />
+                <mxPoint x="1512" y="937.333" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-49" label="" tooltip="Se contemplan varios Terapeutas participantes">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;entryX=0;entryY=0.6;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-22" target="class-25">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2683" y="948.667" />
+                <mxPoint x="2683" y="637.4" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-50" label="" tooltip="Uno por generación">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.6666666666666666;entryX=0;entryY=0.75;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-22" target="class-34">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2586" y="1001.333" />
+                <mxPoint x="2586" y="703.8" />
+                <mxPoint x="3199" y="703.8" />
+                <mxPoint x="3199" y="656.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-50" value="1 en el flujo" vertex="1" connectable="0" parent="edge-50" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-51" label="" tooltip="Una por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-23" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-51" value="1 en el flujo" vertex="1" connectable="0" parent="edge-51" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-52" label="" tooltip="Uno en cada registro descrito">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.3333333333333333;exitY=0;entryX=0.6666666666666666;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-24" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1240.0" y="1042" />
+                <mxPoint x="1365.0" y="1042" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-52" value="1 en el flujo" vertex="1" connectable="0" parent="edge-52" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-53" label="" tooltip="Un informe de alta en el flujo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.6666666666666666;exitY=0;entryX=0.25;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-24" target="class-21">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1365.0" y="1042" />
+                <mxPoint x="1609" y="1042" />
+                <mxPoint x="1609" y="763" />
+                <mxPoint x="1738.75" y="763" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-53" value="1 en el flujo" vertex="1" connectable="0" parent="edge-53" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-54" label="" tooltip="Se contempla el cierre de varias">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.5;entryX=1;entryY=0.8;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-24" target="class-12">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1093.0" y="1478.0" />
+                <mxPoint x="1093" y="1535" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-55" label="" tooltip="Cierre condicionado al alta general">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-24" target="class-9">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-56" label="" tooltip="Una especialidad en el registro descrito">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.2;entryX=1;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-25" target="class-26">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="2683.0" y="587.8" />
+                <mxPoint x="2683" y="164.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-56" value="1 en el flujo" vertex="1" connectable="0" parent="edge-56" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-57" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.25;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-25" target="class-28">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="625.0" />
+                <mxPoint x="3102" y="621.667" />
+                <mxPoint x="3213" y="621.667" />
+                <mxPoint x="3213" y="936.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-58" label="" tooltip="Sin especificar">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=0;entryX=0.5;entryY=1;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-27" target="class-28">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object id="edge-59" label="" tooltip="Una por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;entryX=1;entryY=0.3333333333333333;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-29" target="class-26">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3213.0" y="181.333" />
+                <mxPoint x="3213" y="118" />
+                <mxPoint x="2572" y="118" />
+                <mxPoint x="2572" y="152.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-59" value="1 en el flujo" vertex="1" connectable="0" parent="edge-59" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-60" label="" tooltip="Uno por préstamo en el flujo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-30" target="class-25">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-60" value="1 en el flujo" vertex="1" connectable="0" parent="edge-60" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-61" label="" tooltip="Uno por préstamo en el flujo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.6666666666666666;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-30" target="class-29">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="3102.0" y="193.0" />
+                <mxPoint x="3102" y="222.667" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-61" value="1 en el flujo" vertex="1" connectable="0" parent="edge-61" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-62" label="" tooltip="Uno por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0.3333333333333333;exitY=1;entryX=0.6666666666666666;entryY=0;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-32" target="class-1">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1240.0" y="430.0" />
+                <mxPoint x="1512" y="430" />
+                <mxPoint x="1512" y="874" />
+                <mxPoint x="1365.0" y="874" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-62" value="1 en el flujo" vertex="1" connectable="0" parent="edge-62" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-63" label="" tooltip="Un conjunto de datos de facturación por registro">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;entryX=1;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-32" target="class-31">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1093.0" y="229.333" />
+                <mxPoint x="1093" y="268" />
+                <mxPoint x="452" y="268" />
+                <mxPoint x="452" y="202.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-63" value="1 en el flujo" vertex="1" connectable="0" parent="edge-63" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-64" label="" tooltip="Selección múltiple">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-32" target="class-26">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1512.0" y="274.0" />
+                <mxPoint x="1512" y="282" />
+                <mxPoint x="2153" y="282" />
+                <mxPoint x="2153" y="158.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-64" value="Varios posibles" vertex="1" connectable="0" parent="edge-64" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+        <object id="edge-65" label="" tooltip="Uno en el flujo de pago no efectivo">
+          <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;jumpStyle=arc;jumpSize=8;html=0;strokeColor=#6b8599;strokeWidth=1.3;exitX=0;exitY=0.6666666666666666;entryX=1;entryY=0.5;endArrow=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="class-32" target="class-33">
+            <mxGeometry as="geometry" relative="1">
+              <Array as="points">
+                <mxPoint x="1093.0" y="318.667" />
+                <mxPoint x="1093" y="193.0" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="multiplicity-65" value="1 en el flujo" vertex="1" connectable="0" parent="edge-65" style="edgeLabel;html=0;align=center;verticalAlign=middle;fontSize=10;fontColor=#365269;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" x="0.72" y="0" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
